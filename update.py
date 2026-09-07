@@ -65,6 +65,17 @@ def main():
         print("変更なし（push しません）")
         return 0
 
+    # 生成時刻しか変わっていないなら push しない。
+    # 自動で何度も走るので、放っておくとタイムスタンプだけのコミットが積み上がる。
+    diff = run(["git", "diff", "-U0"]).stdout
+    changed = [l for l in diff.splitlines()
+               if (l.startswith("+") or l.startswith("-"))
+               and not l.startswith(("+++", "---"))]
+    if changed and all(("generated_at" in l or "時点" in l) for l in changed):
+        run(["git", "checkout", "--", "."])
+        print("生成時刻以外に変化なし（push しません）")
+        return 0
+
     run(["git", "add", "-A"])
     r = run(["git", "-c", "user.name=takeda-png", "commit", "-m",
              "Update project status\n\n"
