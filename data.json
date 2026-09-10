@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T17:27:36",
+ "generated_at": "2026-09-10T17:28:26",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -160,6 +160,23 @@
     "uncommitted": 0
    },
    "days": 1,
+   "status": "active",
+   "metrics": []
+  },
+  {
+   "name": "採用パイプライン",
+   "note": "Indeed応募者の管理ボード・GitHub Pages で公開中",
+   "dir": {
+    "size_mb": 0.2,
+    "files": 7,
+    "mtime": "2026-09-10T16:50:43"
+   },
+   "git": {
+    "last_commit": "2026-09-10T16:51:33+09:00",
+    "commits": 2,
+    "uncommitted": 0
+   },
+   "days": 0,
    "status": "active",
    "metrics": []
   },

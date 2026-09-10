@@ -173,6 +173,7 @@ def build():
     # ── Active 配下のその他 ──────────────────────────────
     others = [
         ("工務店DXスイート(デモ)", "koumuten-dx-suite-demo", "商談用デモ・GitHub Pages で公開中"),
+        ("採用パイプライン", "recruit-pipeline", "Indeed応募者の管理ボード・GitHub Pages で公開中"),
         ("AIツールポータル", "ai-tools-portal", "自社ツールの公開ショーケース"),
         ("会員アプリ(有料版)", "sinmido-tools-app", "契約者向けのログイン付きツール"),
         ("Website Analyzer", "website-analyzer", "GA4・Search Console の分析レポート"),
