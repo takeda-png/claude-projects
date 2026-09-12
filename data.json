@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12T17:36:30",
+ "generated_at": "2026-09-12T18:15:40",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -31,25 +31,25 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 1.3,
-    "files": 168,
-    "mtime": "2026-07-23T15:26:05"
+    "size_mb": 1.5,
+    "files": 190,
+    "mtime": "2026-09-12T18:15:35"
    },
    "git": {
-    "last_commit": "2026-07-23T15:26:07+09:00",
-    "commits": 83,
+    "last_commit": "2026-09-12T18:15:37+09:00",
+    "commits": 89,
     "uncommitted": 0
    },
-   "days": 51,
-   "status": "idle",
+   "days": 0,
+   "status": "active",
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 57
+     "value": 59
     },
     {
      "label": "記事JSON",
-     "value": 58
+     "value": 60
     }
    ]
   },
@@ -152,11 +152,11 @@
    "dir": {
     "size_mb": 3.3,
     "files": 3,
-    "mtime": "2026-09-12T17:26:51"
+    "mtime": "2026-09-12T17:50:38"
    },
    "git": {
-    "last_commit": "2026-09-12T17:26:52+09:00",
-    "commits": 49,
+    "last_commit": "2026-09-12T18:01:57+09:00",
+    "commits": 50,
     "uncommitted": 0
    },
    "days": 0,
