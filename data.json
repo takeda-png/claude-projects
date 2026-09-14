@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-12T21:46:25",
+ "generated_at": "2026-09-14T18:07:39",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
-    "size_mb": 291.2,
-    "files": 1274,
-    "mtime": "2026-09-12T14:06:05"
+    "size_mb": 291.4,
+    "files": 1285,
+    "mtime": "2026-09-14T18:06:46"
    },
    "git": {
-    "last_commit": "2026-09-12T14:06:10+09:00",
-    "commits": 964,
+    "last_commit": "2026-09-14T18:06:57+09:00",
+    "commits": 973,
     "uncommitted": 0
    },
    "days": 0,
@@ -40,7 +40,7 @@
     "commits": 91,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 1,
    "status": "active",
    "metrics": [
     {
@@ -66,7 +66,7 @@
     "commits": 20,
     "uncommitted": 0
    },
-   "days": 149,
+   "days": 150,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "commits": 6,
     "uncommitted": 0
    },
-   "days": 147,
+   "days": 148,
    "status": "idle",
    "metrics": [
     {
@@ -128,7 +128,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 149,
+   "days": 150,
    "status": "idle",
    "metrics": [
     {
@@ -159,7 +159,7 @@
     "commits": 50,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": []
   },
@@ -176,7 +176,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 1,
+   "days": 3,
    "status": "active",
    "metrics": []
   },
@@ -193,7 +193,7 @@
     "commits": 11,
     "uncommitted": 0
    },
-   "days": 17,
+   "days": 19,
    "status": "slow",
    "metrics": []
   },
@@ -210,7 +210,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 16,
+   "days": 17,
    "status": "slow",
    "metrics": []
   },
@@ -227,7 +227,7 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 5,
+   "days": 7,
    "status": "active",
    "metrics": []
   },
@@ -244,7 +244,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 155,
+   "days": 157,
    "status": "idle",
    "metrics": []
   },
@@ -257,7 +257,7 @@
     "mtime": "2026-09-04T19:01:08"
    },
    "git": null,
-   "days": 8,
+   "days": 9,
    "status": "slow",
    "metrics": []
   },
@@ -270,7 +270,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 11,
+   "days": 13,
    "status": "slow",
    "metrics": []
   }
