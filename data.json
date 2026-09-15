@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T10:24:57",
+ "generated_at": "2026-09-15T19:50:44",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -66,7 +66,7 @@
     "commits": 20,
     "uncommitted": 0
    },
-   "days": 151,
+   "days": 152,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "commits": 6,
     "uncommitted": 0
    },
-   "days": 149,
+   "days": 150,
    "status": "idle",
    "metrics": [
     {
@@ -128,7 +128,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 151,
+   "days": 152,
    "status": "idle",
    "metrics": [
     {
@@ -159,7 +159,7 @@
     "commits": 50,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 3,
    "status": "active",
    "metrics": []
   },
@@ -193,7 +193,7 @@
     "commits": 11,
     "uncommitted": 0
    },
-   "days": 19,
+   "days": 20,
    "status": "slow",
    "metrics": []
   },
@@ -210,7 +210,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 18,
+   "days": 19,
    "status": "slow",
    "metrics": []
   },
@@ -227,8 +227,8 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 7,
-   "status": "active",
+   "days": 8,
+   "status": "slow",
    "metrics": []
   },
   {
@@ -244,7 +244,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 157,
+   "days": 158,
    "status": "idle",
    "metrics": []
   },
@@ -257,7 +257,7 @@
     "mtime": "2026-09-04T19:01:08"
    },
    "git": null,
-   "days": 10,
+   "days": 11,
    "status": "slow",
    "metrics": []
   },
@@ -270,7 +270,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 13,
+   "days": 14,
    "status": "slow",
    "metrics": []
   }
