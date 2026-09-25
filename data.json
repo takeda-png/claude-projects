@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-25T16:27:08",
+ "generated_at": "2026-09-25T19:29:03",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 295.9,
-    "files": 1354,
-    "mtime": "2026-09-25T10:49:38"
+    "files": 1358,
+    "mtime": "2026-09-25T19:24:45"
    },
    "git": {
-    "last_commit": "2026-09-25T13:07:11+09:00",
-    "commits": 1067,
+    "last_commit": "2026-09-25T19:24:50+09:00",
+    "commits": 1074,
     "uncommitted": 0
    },
    "days": 0,
@@ -66,7 +66,7 @@
     "commits": 20,
     "uncommitted": 0
    },
-   "days": 161,
+   "days": 162,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "commits": 6,
     "uncommitted": 0
    },
-   "days": 159,
+   "days": 160,
    "status": "idle",
    "metrics": [
     {
@@ -128,7 +128,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 161,
+   "days": 162,
    "status": "idle",
    "metrics": [
     {
@@ -150,16 +150,16 @@
    "name": "工務店DXスイート(デモ)",
    "note": "商談用デモ・GitHub Pages で公開中",
    "dir": {
-    "size_mb": 3.4,
+    "size_mb": 3.5,
     "files": 3,
-    "mtime": "2026-09-18T13:00:02"
+    "mtime": "2026-09-25T17:40:51"
    },
    "git": {
-    "last_commit": "2026-09-18T13:00:03+09:00",
-    "commits": 53,
+    "last_commit": "2026-09-25T17:41:18+09:00",
+    "commits": 55,
     "uncommitted": 0
    },
-   "days": 7,
+   "days": 0,
    "status": "active",
    "metrics": []
   },
@@ -257,7 +257,7 @@
     "mtime": "2026-09-04T19:01:08"
    },
    "git": null,
-   "days": 20,
+   "days": 21,
    "status": "slow",
    "metrics": []
   },
