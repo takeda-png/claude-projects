@@ -20,7 +20,13 @@ sys.stdout.reconfigure(encoding="utf-8")
 HOME = Path.home()          # 公開リポジトリなので実パスは書かない
 DESK = HOME / "Desktop"
 ACTIVE = DESK / "_Projects" / "Active"
-OUT = Path(__file__).resolve().parent / "data.json"
+BASE = Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE))
+from pcname import pc_name  # noqa: E402
+
+PC = pc_name()
+# PCごとに別ファイル。複数のPCが同時に push してもぶつからない。
+OUT = BASE / "sources" / f"{PC}.json"
 
 # 走査から外す（容量・件数を膨らませるだけで意味がない）
 SKIP_DIRS = {".git", "node_modules", "__pycache__", "venv", ".venv",
@@ -116,6 +122,8 @@ def status_of(days):
 def pipeline(name, dirname, note):
     d = DESK / dirname
     st = dir_stats(d)
+    if not st:
+        return None  # このPCには無い
     counts = csv_status(d / "companies.csv") or {}
     total = sum(counts.values())
     sub = counts.get("submitted", 0)
@@ -138,7 +146,7 @@ def build():
     # ── WordPress 自動投稿（コーポレート） ──────────────────
     p = HOME / "sinmido"
     st = dir_stats(p)
-    projects.append({
+    if st: projects.append({
         "name": "WordPress Webmaster AI",
         "note": "sinmido.com の記事生成・自動投稿",
         "dir": st, "git": git_stats(p),
@@ -153,7 +161,7 @@ def build():
     # ── リクルートサイト自動コラム ────────────────────────
     p = HOME / "sinmido-recruit"
     st = dir_stats(p)
-    projects.append({
+    if st: projects.append({
         "name": "リクルート自動コラム",
         "note": "sinmido-recruit.com のコラム生成・投稿",
         "dir": st, "git": git_stats(p),
@@ -192,10 +200,15 @@ def build():
             "days": days, "status": status_of(days), "metrics": [],
         })
 
+    projects = [x for x in projects if x]
+    for x in projects:
+        x["pc"] = PC
     data = {
+        "pc": PC,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "projects": projects,
     }
+    OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{OUT.name}: {len(projects)} プロジェクト")
     for pr in projects:
