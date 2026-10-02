@@ -12,8 +12,9 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 BASE = Path(__file__).resolve().parent
-DATA = BASE / "data.json"
-OUT = BASE / "index.html"
+SRC = BASE / "sources"
+# --out で出力先を変えられる（手元の確認用。本番の index.html は GitHub Actions が作る）
+OUT = Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else BASE / "index.html"
 
 # 測っているのは「最終更新日」であって稼働状況そのものではない。
 # 成果物フォルダまで「稼働中」と出ると誤解するので、事実どおりの言い方にする。
@@ -57,6 +58,9 @@ h1{font-size:21px;margin:0;letter-spacing:.02em}
 .barlab{font-size:11px;color:var(--sub);margin-top:5px}
 .foot{display:flex;flex-wrap:wrap;gap:14px;margin-top:11px;padding-top:10px;
       border-top:1px solid var(--line);font-size:11.5px;color:var(--sub)}
+.pc{font-size:11px;padding:1px 8px;border-radius:6px;background:var(--bar);color:var(--sub);white-space:nowrap}
+.pcs{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;color:var(--sub);margin:0 0 18px}
+.pcs b{color:var(--tx);font-weight:600}
 .foot b{font-weight:600;color:var(--tx);font-variant-numeric:tabular-nums}
 footer{margin-top:34px;font-size:11.5px;color:var(--sub);line-height:1.8}
 @media(max-width:520px){
@@ -64,6 +68,22 @@ footer{margin-top:34px;font-size:11.5px;color:var(--sub);line-height:1.8}
   .age{margin-left:0;width:100%} .mets{gap:14px} .met .v{font-size:17px}
 }
 """
+
+
+def days_since(iso):
+    if not iso:
+        return None
+    try:
+        d = datetime.fromisoformat(iso).replace(tzinfo=None)
+    except ValueError:
+        return None
+    return max((datetime.now() - d).days, 0)
+
+
+def status_of(days):
+    if days is None:
+        return "unknown"
+    return "active" if days <= 7 else "slow" if days <= 30 else "idle"
 
 
 def fmt_age(d):
@@ -82,6 +102,8 @@ def card(p):
     h.append('<div class="top">')
     h.append(f'<h2 class="nm">{p["name"]}</h2>')
     h.append(f'<span class="pill {st}">{LABEL[st]}</span>')
+    if p.get("pc"):
+        h.append(f'<span class="pc">{p["pc"]}</span>')
     h.append(f'<span class="age">{fmt_age(p["days"])}</span>')
     h.append("</div>")
     if p.get("note"):
@@ -98,11 +120,14 @@ def card(p):
         if first.get("of"):
             pct = first["value"] / first["of"] * 100
             h.append(f'<div class="bar"><i style="width:{pct:.1f}%"></i></div>')
-            h.append(f'<div class="barlab">リスト {first["of"]:,} 件のうち '
-                     f'{first["value"]:,} 件が送信済み（{pct:.1f}%）</div>')
+            h.append(f'<div class="barlab">{first["of"]:,} 件のうち '
+                     f'{first["value"]:,} 件が{first["label"]}（{pct:.1f}%）</div>')
 
-    d, g = p["dir"], p.get("git")
-    foot = [f'ファイル <b>{d["files"]:,}</b>', f'容量 <b>{d["size_mb"]:,.1f}</b> MB']
+    d, g = p.get("dir"), p.get("git")
+    if p.get("manual"):
+        foot = [f'手入力 <b>{p["updated"][:16].replace("T", " ")}</b>']
+    else:
+        foot = [f'ファイル <b>{d["files"]:,}</b>', f'容量 <b>{d["size_mb"]:,.1f}</b> MB']
     if g:
         if g.get("commits"):
             foot.append(f'コミット <b>{g["commits"]:,}</b>')
@@ -114,15 +139,28 @@ def card(p):
 
 
 def build():
-    data = json.loads(DATA.read_text(encoding="utf-8"))
-    gen = datetime.fromisoformat(data["generated_at"])
-    ps = data["projects"]
+    ps, pcs, gens = [], {}, []
+    for f in sorted(SRC.glob("*.json")):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        gens.append(data["generated_at"])
+        pc = data.get("pc") or f.stem.split(".")[0]
+        pcs[pc] = max(pcs.get(pc, ""), data["generated_at"])
+        for p in data["projects"]:
+            p.setdefault("pc", pc)
+            # 経過日数は組み立てた時点で数え直す（そのPCが長く更新していなくてもずれない）
+            ref = p.get("updated") if p.get("manual") else (p.get("dir") or {}).get("mtime")
+            p["days"] = days_since(ref)
+            p["status"] = status_of(p["days"])
+            ps.append(p)
+    gen = datetime.fromisoformat(max(gens)) if gens else datetime.now()
     order = {"active": 0, "slow": 1, "idle": 2, "unknown": 3}
     ps.sort(key=lambda x: (order[x["status"]], x["days"] if x["days"] is not None else 9999))
 
     groups = [("直近1週間で更新", ["active"]), ("1ヶ月以内に更新", ["slow"]),
               ("1ヶ月以上さわっていない", ["idle", "unknown"])]
-    body = []
+    body = ['<div class="pcs">' + "".join(
+        f'<span><b>{k}</b> {v[:16].replace("T", " ")} 更新</span>' for k, v in sorted(pcs.items())
+    ) + "</div>"]
     for title, keys in groups:
         sel = [p for p in ps if p["status"] in keys]
         if not sel:
@@ -145,11 +183,11 @@ def build():
   <h1>プロジェクト状況</h1>
   <span class="gen">{gen.strftime('%Y-%m-%d %H:%M')} 時点</span>
 </header>
-<p class="lead">数字はすべてファイル・CSV・git から自動で数えたものです（手入力なし）。
+<p class="lead">数字は各PCのファイル・CSV・git から自動で数えたもの（「手入力」と表示した分を除く）。
 グループ分けは<strong>ファイルの最終更新日</strong>だけで決めています（作業の進捗ではありません）。</p>
 {"".join(body)}
 <footer>
-  自動生成：<code>collect.py</code> → <code>build.py</code>。企業名・顧客名・ローカルのパスは載せていません。<br>
+  自動生成：各PCの <code>collect.py</code> / <code>report.py</code> → GitHub Actions の <code>build.py</code>。企業名・顧客名・ローカルのパスは載せていません。<br>
   検索エンジンには載りません（noindex）。
 </footer>
 </div>
