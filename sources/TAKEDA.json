@@ -1,17 +1,18 @@
 {
- "generated_at": "2026-09-26T18:44:45",
+ "pc": "TAKEDA",
+ "generated_at": "2026-10-02T14:59:37",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 299.7,
-    "files": 1426,
-    "mtime": "2026-09-26T18:38:13"
+    "files": 1430,
+    "mtime": "2026-10-02T09:36:16"
    },
    "git": {
-    "last_commit": "2026-09-26T18:38:19+09:00",
-    "commits": 1119,
+    "last_commit": "2026-10-02T14:48:20+09:00",
+    "commits": 1130,
     "uncommitted": 0
    },
    "days": 0,
@@ -25,7 +26,8 @@
      "label": "記事JSON",
      "value": 126
     }
-   ]
+   ],
+   "pc": "TAKEDA"
   },
   {
    "name": "リクルート自動コラム",
@@ -40,7 +42,7 @@
     "commits": 91,
     "uncommitted": 0
    },
-   "days": 13,
+   "days": 19,
    "status": "slow",
    "metrics": [
     {
@@ -51,7 +53,8 @@
      "label": "記事JSON",
      "value": 60
     }
-   ]
+   ],
+   "pc": "TAKEDA"
   },
   {
    "name": "埼玉フォーム営業",
@@ -66,7 +69,7 @@
     "commits": 20,
     "uncommitted": 0
    },
-   "days": 162,
+   "days": 168,
    "status": "idle",
    "metrics": [
     {
@@ -82,7 +85,8 @@
      "label": "リスト",
      "value": 15269
     }
-   ]
+   ],
+   "pc": "TAKEDA"
   },
   {
    "name": "SCOPE営業",
@@ -97,7 +101,7 @@
     "commits": 6,
     "uncommitted": 0
    },
-   "days": 161,
+   "days": 166,
    "status": "idle",
    "metrics": [
     {
@@ -113,7 +117,8 @@
      "label": "リスト",
      "value": 5998
     }
-   ]
+   ],
+   "pc": "TAKEDA"
   },
   {
    "name": "全国工務店営業",
@@ -128,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 162,
+   "days": 168,
    "status": "idle",
    "metrics": [
     {
@@ -144,7 +149,8 @@
      "label": "リスト",
      "value": 5618
     }
-   ]
+   ],
+   "pc": "TAKEDA"
   },
   {
    "name": "工務店DXスイート(デモ)",
@@ -159,9 +165,10 @@
     "commits": 55,
     "uncommitted": 0
    },
-   "days": 1,
+   "days": 6,
    "status": "active",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "採用パイプライン",
@@ -176,9 +183,10 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 15,
+   "days": 21,
    "status": "slow",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "AIツールポータル",
@@ -193,9 +201,10 @@
     "commits": 11,
     "uncommitted": 0
    },
-   "days": 31,
+   "days": 36,
    "status": "idle",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "会員アプリ(有料版)",
@@ -210,9 +219,10 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 29,
-   "status": "slow",
-   "metrics": []
+   "days": 35,
+   "status": "idle",
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "Website Analyzer",
@@ -227,9 +237,10 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 19,
+   "days": 25,
    "status": "slow",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "StrengthsFinder 分析",
@@ -244,9 +255,10 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 169,
+   "days": 175,
    "status": "idle",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "倍増の設計図",
@@ -257,9 +269,10 @@
     "mtime": "2026-09-04T19:01:08"
    },
    "git": null,
-   "days": 21,
+   "days": 27,
    "status": "slow",
-   "metrics": []
+   "metrics": [],
+   "pc": "TAKEDA"
   },
   {
    "name": "人員配置 2026",
@@ -270,9 +283,10 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 25,
-   "status": "slow",
-   "metrics": []
+   "days": 31,
+   "status": "idle",
+   "metrics": [],
+   "pc": "TAKEDA"
   }
  ]
 }
