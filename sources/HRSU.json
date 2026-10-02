@@ -1,0 +1,244 @@
+{
+ "pc": "HRSU",
+ "generated_at": "2026-10-02T15:01:39",
+ "projects": [
+  {
+   "name": "WordPress Webmaster AI",
+   "note": "sinmido.com の記事生成・自動投稿",
+   "dir": {
+    "size_mb": 67.1,
+    "files": 482,
+    "mtime": "2026-10-02T09:18:47"
+   },
+   "git": {
+    "last_commit": "2026-09-02T09:14:05+09:00",
+    "commits": null,
+    "uncommitted": 0
+   },
+   "days": 0,
+   "status": "active",
+   "metrics": [
+    {
+     "label": "投稿ログ",
+     "value": 117
+    },
+    {
+     "label": "記事JSON",
+     "value": 117
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "リクルート自動コラム",
+   "note": "sinmido-recruit.com のコラム生成・投稿",
+   "dir": {
+    "size_mb": 5.0,
+    "files": 502,
+    "mtime": "2026-10-02T11:42:00"
+   },
+   "git": {
+    "last_commit": null,
+    "commits": null,
+    "uncommitted": 0
+   },
+   "days": 0,
+   "status": "active",
+   "metrics": [
+    {
+     "label": "投稿ログ",
+     "value": 192
+    },
+    {
+     "label": "記事JSON",
+     "value": 196
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "全国工務店営業",
+   "note": "全国の工務店へのフォーム送信",
+   "dir": {
+    "size_mb": 3.2,
+    "files": 4,
+    "mtime": "2026-06-12T13:41:40"
+   },
+   "git": {
+    "last_commit": null,
+    "commits": null,
+    "uncommitted": 0
+   },
+   "days": 112,
+   "status": "idle",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 2893,
+     "of": 6550
+    },
+    {
+     "label": "未送信",
+     "value": 4
+    },
+    {
+     "label": "リスト",
+     "value": 6550
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "SCOPEパートナー募集",
+   "note": "制作会社へのパートナー募集・送付IDで申込元を判別",
+   "dir": {
+    "size_mb": 0.5,
+    "files": 36,
+    "mtime": "2026-09-30T09:17:29"
+   },
+   "git": null,
+   "days": 2,
+   "status": "active",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 169,
+     "of": 184
+    },
+    {
+     "label": "未送信",
+     "value": 0
+    },
+    {
+     "label": "リスト",
+     "value": 184
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "製造業SCOPE先出し",
+   "note": "北関東の中小製造業へ反響レポートを先出し",
+   "dir": {
+    "size_mb": 0.4,
+    "files": 29,
+    "mtime": "2026-10-02T13:36:54"
+   },
+   "git": null,
+   "days": 0,
+   "status": "active",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 1,
+     "of": 166
+    },
+    {
+     "label": "未送信",
+     "value": 114
+    },
+    {
+     "label": "リスト",
+     "value": 166
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "工務店AIO診断",
+   "note": "全国工務店へAI検索の無料診断を案内",
+   "dir": {
+    "size_mb": 4.0,
+    "files": 48,
+    "mtime": "2026-10-02T14:15:52"
+   },
+   "git": null,
+   "days": 0,
+   "status": "active",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 3111,
+     "of": 5775
+    },
+    {
+     "label": "未送信",
+     "value": 695
+    },
+    {
+     "label": "リスト",
+     "value": 5775
+    }
+   ],
+   "pc": "HRSU"
+  },
+  {
+   "name": "Website Analyzer",
+   "note": "GA4・Search Console の分析レポート",
+   "dir": {
+    "size_mb": 0.4,
+    "files": 38,
+    "mtime": "2026-06-30T11:49:43"
+   },
+   "git": {
+    "last_commit": "2026-06-30T11:50:23+09:00",
+    "commits": 3,
+    "uncommitted": 0
+   },
+   "days": 94,
+   "status": "idle",
+   "metrics": [],
+   "pc": "HRSU"
+  },
+  {
+   "name": "StrengthsFinder 分析",
+   "note": "組織の強み分析",
+   "dir": {
+    "size_mb": 1.9,
+    "files": 41,
+    "mtime": "2026-04-17T09:42:12"
+   },
+   "git": {
+    "last_commit": "2026-04-21T18:36:22+09:00",
+    "commits": 1,
+    "uncommitted": 0
+   },
+   "days": 168,
+   "status": "idle",
+   "metrics": [],
+   "pc": "HRSU"
+  },
+  {
+   "name": "ウェビナー資料生成",
+   "note": "GA4・SCの分析からウェビナー資料を生成",
+   "dir": {
+    "size_mb": 0.1,
+    "files": 22,
+    "mtime": "2026-04-17T19:08:39"
+   },
+   "git": null,
+   "days": 167,
+   "status": "idle",
+   "metrics": [],
+   "pc": "HRSU"
+  },
+  {
+   "name": "プロジェクト状況ページ",
+   "note": "このページ自体の生成スクリプト",
+   "dir": {
+    "size_mb": 0.0,
+    "files": 11,
+    "mtime": "2026-10-02T15:01:37"
+   },
+   "git": {
+    "last_commit": "2026-10-02T14:59:40+09:00",
+    "commits": 50,
+    "uncommitted": 1
+   },
+   "days": 0,
+   "status": "active",
+   "metrics": [],
+   "pc": "HRSU"
+  }
+ ]
+}
