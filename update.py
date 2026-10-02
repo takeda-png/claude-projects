@@ -56,7 +56,7 @@ def main():
     # コミットの co-author 表記が必ず引っかかるため。他は全部見る。
     SELF = Path(__file__).name
     for f in BASE.rglob("*"):
-        if not f.is_file() or ".git" in f.parts or f.name in (SELF, "_preview.html", ".pc_name"):
+        if not f.is_file() or ".git" in f.parts or "__pycache__" in f.parts or f.name in (SELF, "_preview.html", ".pc_name"):
             continue
         t = f.read_text(encoding="utf-8", errors="replace")
         for k, pt in pats.items():
