@@ -1,6 +1,6 @@
 {
- "pc": "HRSU",
- "generated_at": "2026-10-02T15:01:39",
+ "pc": "PC2",
+ "generated_at": "2026-10-02T15:30:45",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -27,7 +27,7 @@
      "value": 117
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "リクルート自動コラム",
@@ -54,7 +54,7 @@
      "value": 196
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "全国工務店営業",
@@ -86,7 +86,7 @@
      "value": 6550
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "SCOPEパートナー募集",
@@ -114,7 +114,7 @@
      "value": 184
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "製造業SCOPE先出し",
@@ -142,7 +142,7 @@
      "value": 166
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "工務店AIO診断",
@@ -170,7 +170,7 @@
      "value": 5775
     }
    ],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "Website Analyzer",
@@ -188,7 +188,7 @@
    "days": 94,
    "status": "idle",
    "metrics": [],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "StrengthsFinder 分析",
@@ -206,7 +206,7 @@
    "days": 168,
    "status": "idle",
    "metrics": [],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "ウェビナー資料生成",
@@ -220,25 +220,25 @@
    "days": 167,
    "status": "idle",
    "metrics": [],
-   "pc": "HRSU"
+   "pc": "PC2"
   },
   {
    "name": "プロジェクト状況ページ",
    "note": "このページ自体の生成スクリプト",
    "dir": {
-    "size_mb": 0.0,
-    "files": 11,
-    "mtime": "2026-10-02T15:01:37"
+    "size_mb": 0.1,
+    "files": 15,
+    "mtime": "2026-10-02T15:30:42"
    },
    "git": {
-    "last_commit": "2026-10-02T14:59:40+09:00",
-    "commits": 50,
-    "uncommitted": 1
+    "last_commit": "2026-10-02T15:04:15+09:00",
+    "commits": 57,
+    "uncommitted": 2
    },
    "days": 0,
    "status": "active",
    "metrics": [],
-   "pc": "HRSU"
+   "pc": "PC2"
   }
  ]
 }
