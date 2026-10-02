@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-02T16:23:12",
+ "generated_at": "2026-10-02T16:31:25",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -149,8 +149,8 @@
    "note": "全国工務店へAI検索の無料診断を案内",
    "dir": {
     "size_mb": 4.2,
-    "files": 54,
-    "mtime": "2026-10-02T16:23:11"
+    "files": 55,
+    "mtime": "2026-10-02T16:31:22"
    },
    "git": null,
    "days": 0,
@@ -158,12 +158,12 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 3207,
+     "value": 3225,
      "of": 5775
     },
     {
      "label": "未送信",
-     "value": 192
+     "value": 93
     },
     {
      "label": "リスト",
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-02T16:23:08"
+    "mtime": "2026-10-02T16:31:23"
    },
    "git": {
-    "last_commit": "2026-10-02T07:14:16Z",
-    "commits": 81,
+    "last_commit": "2026-10-02T07:23:23Z",
+    "commits": 83,
     "uncommitted": 0
    },
    "days": 0,
