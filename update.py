@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-"""実測 → HTML生成 → GitHub Pages へ反映 を1本で行う。
+"""このPCの実測 → sources/<PC名>.json を push する。
+
+ページ(index.html)は GitHub Actions が全PCの sources/*.json から組み立てる。
+各PCは自分のファイルしか触らないので、複数PCから push してもぶつからない。
 
 使い方:
   python update.py            通常（変更があれば push）
-  python update.py --dry-run  生成だけして push しない
+  python update.py --dry-run  集計と確認用ページ(_preview.html)だけ作って push しない
 """
 import subprocess
 import sys
@@ -13,6 +16,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 BASE = Path(__file__).resolve().parent
 DRY = "--dry-run" in sys.argv
 URL = "https://takeda-png.github.io/claude-projects/"
+sys.path.insert(0, str(BASE))
+from pcname import pc_name  # noqa: E402
+PC = pc_name()
 
 
 def run(args, **kw):
@@ -21,10 +27,16 @@ def run(args, **kw):
 
 
 def main():
-    for script in ("collect.py", "build.py"):
-        r = run([sys.executable, script])
+    # 先に他のPCの分を取り込む（自分のファイルしか書かないので衝突しない）
+    if not DRY:
+        r = run(["git", "pull", "--rebase", "--autostash"])
         if r.returncode != 0:
-            print(f"[ERROR] {script}\n{r.stdout}\n{r.stderr}")
+            print("[ERROR] pull\n" + r.stdout + r.stderr)
+            return 1
+    for script in (["collect.py"], ["build.py", "--out", "_preview.html"]):
+        r = run([sys.executable] + script)
+        if r.returncode != 0:
+            print(f"[ERROR] {script[0]}\n{r.stdout}\n{r.stderr}")
             return 1
         print(r.stdout.rstrip())
 
@@ -44,7 +56,7 @@ def main():
     # コミットの co-author 表記が必ず引っかかるため。他は全部見る。
     SELF = Path(__file__).name
     for f in BASE.rglob("*"):
-        if not f.is_file() or ".git" in f.parts or f.name == SELF:
+        if not f.is_file() or ".git" in f.parts or f.name in (SELF, "_preview.html", ".pc_name"):
             continue
         t = f.read_text(encoding="utf-8", errors="replace")
         for k, pt in pats.items():
@@ -61,33 +73,35 @@ def main():
         print("[dry-run] push しません。")
         return 0
 
-    if not run(["git", "status", "--porcelain"]).stdout.strip():
+    if not run(["git", "status", "--porcelain", "--", "sources"]).stdout.strip():
         print("変更なし（push しません）")
         return 0
 
     # 生成時刻しか変わっていないなら push しない。
     # 自動で何度も走るので、放っておくとタイムスタンプだけのコミットが積み上がる。
-    diff = run(["git", "diff", "-U0"]).stdout
+    diff = run(["git", "diff", "-U0", "--", "sources"]).stdout
     changed = [l for l in diff.splitlines()
                if (l.startswith("+") or l.startswith("-"))
                and not l.startswith(("+++", "---"))]
     if changed and all(("generated_at" in l or "時点" in l) for l in changed):
-        run(["git", "checkout", "--", "."])
+        run(["git", "checkout", "--", "sources"])
         print("生成時刻以外に変化なし（push しません）")
         return 0
 
-    run(["git", "add", "-A"])
-    r = run(["git", "-c", "user.name=takeda-png", "commit", "-m",
-             "Update project status\n\n"
-             "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"])
+    run(["git", "add", "--", "sources"])
+    r = run(["git", "commit", "-m", f"Update project status ({PC})\n\n"
+             "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"])
     if r.returncode != 0:
         print("[ERROR] commit\n" + r.stdout + r.stderr)
         return 1
     r = run(["git", "push"])
+    if r.returncode != 0:  # 直前に他のPCが push していたら取り込んでやり直す
+        run(["git", "pull", "--rebase", "--autostash"])
+        r = run(["git", "push"])
     if r.returncode != 0:
         print("[ERROR] push\n" + r.stdout + r.stderr)
         return 1
-    print(f"反映しました → {URL}")
+    print(f"push しました（1〜2分でページに反映） → {URL}")
     return 0
 
 
