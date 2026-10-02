@@ -1,0 +1,46 @@
+# 各PCが sources/*.json を push したら、ここでページ(index.html)を組み立てる。
+# PCは index.html を触らないので、複数PCの push がぶつからない。
+name: build page
+
+on:
+  push:
+    branches: [master, main]
+    paths: ["sources/**", "build.py"]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 22 * * *"   # 毎朝7時(JST)。どのPCも更新しない日も「何日前」を数え直す
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-page
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: build
+        env:
+          TZ: Asia/Tokyo
+        run: python build.py
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git commit -m "Build page"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
