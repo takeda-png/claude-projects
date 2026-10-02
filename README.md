@@ -1,39 +1,57 @@
 # プロジェクト状況ダッシュボード
 
-手元のプロジェクトの状態を1枚にまとめたページ。
-**Notion 同期の後継**として作った（Notion は会社ワークスペースがブロック上限に達したため）。
-
+複数のPCの作業状況を1枚にまとめたページ。
 公開URL: https://takeda-png.github.io/claude-projects/
 
-## 方針
+## しくみ
 
-**手で書いた説明を持たない。** 数字はすべてファイル・CSV・git から数え直す。
-
-旧 Notion 同期は `status` と `details` の大半がコードへの直書きで、
-放っておくと古くなった（WordPress の欄が「最新p6276」のまま、
-営業件数のメモが `national 241` に対し実際は `1,115` 等）。
-ここではその轍を踏まないよう、集められない情報は載せない。
-
-グループ分けも**ファイルの最終更新日だけ**で決めている（作業の進捗判定ではない）。
-
-## 使い方
-
-```bash
-python collect.py   # 実測 → data.json
-python build.py     # data.json → index.html
-git add -A && git commit -m "update" && git push
+```
+各PC: collect.py（自動で数える）  ─┐
+      report.py （手で書き込む）   ─┼→ sources/<PC名>.json / <PC名>.manual.json を push
+                                    │
+GitHub Actions: build.py ←──────────┘  全PCのファイルをまとめて index.html を作る
 ```
 
-## 載せていないもの
+- **各PCは自分のファイルしか書かない**ので、何台から push してもぶつからない
+- `index.html` は GitHub Actions だけが作る（PC側では触らない。手元の確認は `_preview.html`）
+- 毎朝7時にも組み立て直す（どのPCも動かない日でも「何日前」が正しくなる）
 
-Public リポジトリなので、**企業名・顧客名・ローカルのパス**は一切出していない
-（営業パイプラインは件数だけ）。ページには `noindex` を入れてあるので検索には出ない。
+## 使い方（どのPCでも同じ）
+
+```bash
+git clone https://github.com/takeda-png/claude-projects.git
+cd claude-projects
+echo PC2 > .pc_name          # 任意。無ければ Windows のコンピューター名を使う
+
+python update.py --dry-run   # 集計して _preview.html を作るだけ
+python update.py             # 集計 → チェック → push（1〜2分でページに反映）
+```
+
+### ファイルから数えられない作業を載せる
+
+手で送ったフォーム営業など。
+
+```bash
+python report.py --name "製造業SCOPE営業" --note "製造業5県へのフォーム送信" \
+    --metric 送信済み=120/197 --metric お断り=2
+python update.py
+```
+
+- `--metric ラベル=数/全体` の最初の1つが進捗バーになる
+- 同じ `--name` でもう一度実行すると上書き更新。`--list` で一覧、`--remove "名前"` で削除
+
+## 載せてはいけないもの
+
+**Public リポジトリ**なので、企業名・顧客名・メールアドレス・ローカルのパスは書かない（件数だけ）。
+`update.py` が push 前に毎回スキャンし、見つかれば止まる。ページは `noindex`。
 
 ## ファイル
 
 | ファイル | 役割 |
 |---|---|
-| `collect.py` | 各プロジェクトを走査して実測値を `data.json` に書く |
-| `build.py` | `data.json` から `index.html` を組む |
-| `data.json` | 実測結果 |
-| `index.html` | 公開ページ |
+| `collect.py` | このPCのプロジェクトを実測して `sources/<PC名>.json` に書く（無いフォルダは飛ばす） |
+| `report.py` | 手入力分を `sources/<PC名>.manual.json` に書く |
+| `update.py` | pull → collect → スキャン → 自分のファイルだけ push |
+| `build.py` | `sources/*.json` を全部まとめて `index.html` を組む（Actions が実行） |
+| `pcname.py` | PC名の決定（`.pc_name` → コンピューター名） |
+| `.github/workflows/build.yml` | push・毎朝7時に `build.py` を実行 |
