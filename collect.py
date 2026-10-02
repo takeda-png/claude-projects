@@ -64,6 +64,10 @@ def find_roots():
                     add(Path(root))
                     dirs[:] = []
     add(HOME)       # ホーム直下に置いている構成もある
+    # デスクトップ直下に置いている構成もある（営業パイプラインの form-automation* など）
+    for b in bases:
+        add(b / "Desktop")
+        add(b / "デスクトップ")
     return roots
 
 
