@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-02T15:34:46",
+ "generated_at": "2026-10-02T15:35:19",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -52,6 +52,102 @@
     {
      "label": "記事JSON",
      "value": 60
+    }
+   ],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "埼玉フォーム営業",
+   "note": "埼玉県内企業へのフォーム送信",
+   "dir": {
+    "size_mb": 36.5,
+    "files": 38,
+    "mtime": "2026-04-16T18:51:21"
+   },
+   "git": {
+    "last_commit": "2026-04-16T18:52:15+09:00",
+    "commits": 20,
+    "uncommitted": 0
+   },
+   "days": 168,
+   "status": "idle",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 7238,
+     "of": 15269
+    },
+    {
+     "label": "未送信",
+     "value": 1899
+    },
+    {
+     "label": "リスト",
+     "value": 15269
+    }
+   ],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "SCOPE営業",
+   "note": "HP制作会社・IT企業へのフォーム送信",
+   "dir": {
+    "size_mb": 31.6,
+    "files": 108,
+    "mtime": "2026-04-18T18:44:12"
+   },
+   "git": {
+    "last_commit": "2026-07-27T09:24:28+09:00",
+    "commits": 6,
+    "uncommitted": 0
+   },
+   "days": 166,
+   "status": "idle",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 1695,
+     "of": 5998
+    },
+    {
+     "label": "未送信",
+     "value": 387
+    },
+    {
+     "label": "リスト",
+     "value": 5998
+    }
+   ],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "全国工務店営業",
+   "note": "全国の工務店へのフォーム送信",
+   "dir": {
+    "size_mb": 5.9,
+    "files": 41,
+    "mtime": "2026-04-16T19:10:23"
+   },
+   "git": {
+    "last_commit": "2026-04-18T15:51:47+09:00",
+    "commits": 12,
+    "uncommitted": 0
+   },
+   "days": 168,
+   "status": "idle",
+   "metrics": [
+    {
+     "label": "送信済み",
+     "value": 1115,
+     "of": 5618
+    },
+    {
+     "label": "未送信",
+     "value": 3024
+    },
+    {
+     "label": "リスト",
+     "value": 5618
     }
    ],
    "pc": "TAKEDA"
@@ -188,6 +284,52 @@
    },
    "git": null,
    "days": 31,
+   "status": "idle",
+   "metrics": [],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "ウェビナー資料生成",
+   "note": "GA4・SCの分析からウェビナー資料を生成",
+   "dir": {
+    "size_mb": 0.1,
+    "files": 23,
+    "mtime": "2026-06-25T10:39:07"
+   },
+   "git": null,
+   "days": 99,
+   "status": "idle",
+   "metrics": [],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "招待状送信ツール",
+   "note": "イベント招待の一括送信",
+   "dir": {
+    "size_mb": 0.1,
+    "files": 6,
+    "mtime": "2026-04-10T10:35:25"
+   },
+   "git": {
+    "last_commit": "2026-04-10T10:54:22+09:00",
+    "commits": 1,
+    "uncommitted": 0
+   },
+   "days": 175,
+   "status": "idle",
+   "metrics": [],
+   "pc": "TAKEDA"
+  },
+  {
+   "name": "Meta広告アナリティクス",
+   "note": "Meta広告の実績集計",
+   "dir": {
+    "size_mb": 0.0,
+    "files": 6,
+    "mtime": "2026-03-06T18:09:38"
+   },
+   "git": null,
+   "days": 209,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
