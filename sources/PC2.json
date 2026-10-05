@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-05T09:25:15",
+ "generated_at": "2026-10-05T09:31:42",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -150,7 +150,7 @@
    "dir": {
     "size_mb": 4.2,
     "files": 56,
-    "mtime": "2026-10-05T09:25:13"
+    "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
    "days": 0,
@@ -158,12 +158,12 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 3245,
+     "value": 3254,
      "of": 5775
     },
     {
      "label": "未送信",
-     "value": 54
+     "value": 0
     },
     {
      "label": "リスト",
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-05T09:25:13"
+    "mtime": "2026-10-05T09:31:40"
    },
    "git": {
-    "last_commit": "2026-10-05T00:18:08Z",
-    "commits": 95,
+    "last_commit": "2026-10-05T00:25:24Z",
+    "commits": 97,
     "uncommitted": 0
    },
    "days": 0,
