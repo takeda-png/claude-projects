@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-05T09:17:59",
+ "generated_at": "2026-10-05T09:25:15",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -34,8 +34,8 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 5.1,
-    "files": 511,
-    "mtime": "2026-10-05T09:17:10"
+    "files": 515,
+    "mtime": "2026-10-05T09:23:25"
    },
    "git": {
     "last_commit": null,
@@ -47,7 +47,7 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 193
+     "value": 197
     },
     {
      "label": "記事JSON",
@@ -149,21 +149,21 @@
    "note": "全国工務店へAI検索の無料診断を案内",
    "dir": {
     "size_mb": 4.2,
-    "files": 55,
-    "mtime": "2026-10-02T16:38:20"
+    "files": 56,
+    "mtime": "2026-10-05T09:25:13"
    },
    "git": null,
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "送信済み",
-     "value": 3243,
+     "value": 3245,
      "of": 5775
     },
     {
      "label": "未送信",
-     "value": 56
+     "value": 54
     },
     {
      "label": "リスト",
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-05T09:17:57"
+    "mtime": "2026-10-05T09:25:13"
    },
    "git": {
-    "last_commit": "2026-10-04T23:44:02Z",
-    "commits": 93,
+    "last_commit": "2026-10-05T00:18:08Z",
+    "commits": 95,
     "uncommitted": 0
    },
    "days": 0,
