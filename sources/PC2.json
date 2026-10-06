@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-06T09:22:40",
+ "generated_at": "2026-10-06T09:35:50",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -35,7 +35,7 @@
    "dir": {
     "size_mb": 5.2,
     "files": 521,
-    "mtime": "2026-10-06T09:19:55"
+    "mtime": "2026-10-06T09:22:43"
    },
    "git": {
     "last_commit": null,
@@ -121,21 +121,21 @@
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
     "size_mb": 0.4,
-    "files": 29,
-    "mtime": "2026-10-02T15:41:50"
+    "files": 30,
+    "mtime": "2026-10-06T09:35:46"
    },
    "git": null,
-   "days": 3,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "送信済み",
-     "value": 1,
+     "value": 48,
      "of": 166
     },
     {
      "label": "未送信",
-     "value": 114
+     "value": 64
     },
     {
      "label": "リスト",
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 0,
+   "days": 1,
    "status": "active",
    "metrics": [
     {
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-06T09:22:36"
+    "mtime": "2026-10-06T09:35:47"
    },
    "git": {
-    "last_commit": "2026-10-05T09:00:17Z",
-    "commits": 105,
+    "last_commit": "2026-10-06T00:22:53Z",
+    "commits": 107,
     "uncommitted": 0
    },
    "days": 0,
