@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-06T18:00:06",
+ "generated_at": "2026-10-07T09:33:36",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -94,7 +94,7 @@
    "dir": {
     "size_mb": 0.5,
     "files": 39,
-    "mtime": "2026-10-06T10:19:30"
+    "mtime": "2026-10-07T09:19:17"
    },
    "git": null,
    "days": 0,
@@ -120,9 +120,9 @@
    "name": "製造業SCOPE先出し",
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
-    "size_mb": 0.4,
-    "files": 30,
-    "mtime": "2026-10-06T09:35:53"
+    "size_mb": 0.5,
+    "files": 31,
+    "mtime": "2026-10-07T09:33:25"
    },
    "git": null,
    "days": 0,
@@ -130,12 +130,12 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 48,
+     "value": 95,
      "of": 166
     },
     {
      "label": "未送信",
-     "value": 64
+     "value": 14
     },
     {
      "label": "リスト",
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 1,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 171,
+   "days": 172,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-06T18:00:03"
+    "mtime": "2026-10-07T09:33:27"
    },
    "git": {
-    "last_commit": "2026-10-06T07:08:01Z",
-    "commits": 114,
+    "last_commit": "2026-10-06T09:47:22Z",
+    "commits": 118,
     "uncommitted": 0
    },
    "days": 0,
