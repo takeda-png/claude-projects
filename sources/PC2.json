@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-08T09:20:58",
+ "generated_at": "2026-10-08T09:31:32",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -121,8 +121,8 @@
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
     "size_mb": 0.5,
-    "files": 31,
-    "mtime": "2026-10-07T09:33:40"
+    "files": 32,
+    "mtime": "2026-10-08T09:31:27"
    },
    "git": null,
    "days": 0,
@@ -130,12 +130,12 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 95,
+     "value": 109,
      "of": 166
     },
     {
      "label": "未送信",
-     "value": 14
+     "value": 0
     },
     {
      "label": "リスト",
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-08T09:20:45"
+    "mtime": "2026-10-08T09:31:29"
    },
    "git": {
-    "last_commit": "2026-10-07T01:48:51Z",
-    "commits": 123,
+    "last_commit": "2026-10-08T00:21:12Z",
+    "commits": 125,
     "uncommitted": 0
    },
    "days": 0,
