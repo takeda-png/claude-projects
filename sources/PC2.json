@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-07T10:48:41",
+ "generated_at": "2026-10-08T09:20:58",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 116,
+   "days": 117,
    "status": "idle",
    "metrics": [
     {
@@ -93,8 +93,8 @@
    "note": "制作会社へのパートナー募集・送付IDで申込元を判別",
    "dir": {
     "size_mb": 0.6,
-    "files": 41,
-    "mtime": "2026-10-07T10:39:47"
+    "files": 49,
+    "mtime": "2026-10-07T14:58:39"
    },
    "git": null,
    "days": 0,
@@ -103,15 +103,15 @@
     {
      "label": "送信済み",
      "value": 170,
-     "of": 184
+     "of": 231
     },
     {
      "label": "未送信",
-     "value": 0
+     "value": 44
     },
     {
      "label": "リスト",
-     "value": 184
+     "value": 231
     }
    ],
    "pc": "PC2"
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 98,
+   "days": 99,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 172,
+   "days": 173,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-07T10:48:37"
+    "mtime": "2026-10-08T09:20:45"
    },
    "git": {
-    "last_commit": "2026-10-07T01:15:07Z",
-    "commits": 121,
+    "last_commit": "2026-10-07T01:48:51Z",
+    "commits": 123,
     "uncommitted": 0
    },
    "days": 0,
