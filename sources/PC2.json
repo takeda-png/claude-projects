@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-08T18:00:14",
+ "generated_at": "2026-10-14T08:51:07",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -15,7 +15,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 1,
+   "days": 6,
    "status": "active",
    "metrics": [
     {
@@ -34,15 +34,15 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 5.3,
-    "files": 541,
-    "mtime": "2026-10-07T10:45:01"
+    "files": 542,
+    "mtime": "2026-10-14T08:46:26"
    },
    "git": {
     "last_commit": null,
     "commits": null,
     "uncommitted": 0
    },
-   "days": 1,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 118,
+   "days": 123,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-07T14:58:39"
    },
    "git": null,
-   "days": 1,
+   "days": 6,
    "status": "active",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-08T09:31:35"
    },
    "git": null,
-   "days": 0,
+   "days": 5,
    "status": "active",
    "metrics": [
     {
@@ -153,8 +153,8 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 3,
-   "status": "active",
+   "days": 8,
+   "status": "slow",
    "metrics": [
     {
      "label": "送信済み",
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 100,
+   "days": 105,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 174,
+   "days": 179,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 173,
+   "days": 179,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-08T18:00:06"
+    "mtime": "2026-10-14T08:51:03"
    },
    "git": {
-    "last_commit": "2026-10-08T01:36:52Z",
-    "commits": 128,
+    "last_commit": "2026-10-13T02:54:12Z",
+    "commits": 135,
     "uncommitted": 0
    },
    "days": 0,
