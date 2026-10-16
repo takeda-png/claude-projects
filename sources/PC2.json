@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-16T10:26:32",
+ "generated_at": "2026-10-16T10:47:37",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -34,8 +34,8 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 5.6,
-    "files": 573,
-    "mtime": "2026-10-16T10:08:34"
+    "files": 579,
+    "mtime": "2026-10-16T10:47:23"
    },
    "git": {
     "last_commit": null,
@@ -47,7 +47,7 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 217
+     "value": 221
     },
     {
      "label": "記事JSON",
@@ -121,8 +121,8 @@
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
     "size_mb": 0.6,
-    "files": 40,
-    "mtime": "2026-10-16T10:26:17"
+    "files": 42,
+    "mtime": "2026-10-16T10:29:57"
    },
    "git": null,
    "days": 0,
@@ -228,12 +228,12 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-16T10:26:19"
+    "mtime": "2026-10-16T10:47:30"
    },
    "git": {
-    "last_commit": "2026-10-15T23:45:18Z",
-    "commits": 152,
-    "uncommitted": 0
+    "last_commit": "2026-10-16T01:26:43Z",
+    "commits": 154,
+    "uncommitted": 1
    },
    "days": 0,
    "status": "active",
