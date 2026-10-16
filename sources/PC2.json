@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-16T08:45:08",
+ "generated_at": "2026-10-16T10:26:32",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -33,9 +33,9 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 5.5,
-    "files": 568,
-    "mtime": "2026-10-16T08:44:59"
+    "size_mb": 5.6,
+    "files": 573,
+    "mtime": "2026-10-16T10:08:34"
    },
    "git": {
     "last_commit": null,
@@ -51,7 +51,7 @@
     },
     {
      "label": "記事JSON",
-     "value": 221
+     "value": 226
     }
    ],
    "pc": "PC2"
@@ -93,8 +93,8 @@
    "note": "制作会社へのパートナー募集・送付IDで申込元を判別",
    "dir": {
     "size_mb": 0.7,
-    "files": 51,
-    "mtime": "2026-10-15T09:27:34"
+    "files": 53,
+    "mtime": "2026-10-16T10:11:24"
    },
    "git": null,
    "days": 0,
@@ -102,12 +102,12 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 170,
+     "value": 209,
      "of": 231
     },
     {
      "label": "未送信",
-     "value": 44
+     "value": 0
     },
     {
      "label": "リスト",
@@ -120,9 +120,9 @@
    "name": "製造業SCOPE先出し",
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
-    "size_mb": 0.5,
-    "files": 33,
-    "mtime": "2026-10-16T08:45:03"
+    "size_mb": 0.6,
+    "files": 40,
+    "mtime": "2026-10-16T10:26:17"
    },
    "git": null,
    "days": 0,
@@ -130,7 +130,7 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 109,
+     "value": 148,
      "of": 166
     },
     {
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 10,
+   "days": 11,
    "status": "slow",
    "metrics": [
     {
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 181,
+   "days": 182,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-16T08:45:04"
+    "mtime": "2026-10-16T10:26:19"
    },
    "git": {
-    "last_commit": "2026-10-15T10:38:16Z",
-    "commits": 150,
+    "last_commit": "2026-10-15T23:45:18Z",
+    "commits": 152,
     "uncommitted": 0
    },
    "days": 0,
