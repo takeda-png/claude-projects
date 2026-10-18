@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-16T10:47:37",
+ "generated_at": "2026-10-19T08:44:43",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -15,7 +15,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 3,
    "status": "active",
    "metrics": [
     {
@@ -34,20 +34,20 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 5.6,
-    "files": 579,
-    "mtime": "2026-10-16T10:47:23"
+    "files": 580,
+    "mtime": "2026-10-16T10:59:14"
    },
    "git": {
     "last_commit": null,
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 221
+     "value": 222
     },
     {
      "label": "記事JSON",
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 125,
+   "days": 128,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-16T10:11:24"
    },
    "git": null,
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-16T10:29:57"
    },
    "git": null,
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 11,
+   "days": 13,
    "status": "slow",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 107,
+   "days": 110,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 182,
+   "days": 184,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 181,
+   "days": 184,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,12 +228,12 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-16T10:47:30"
+    "mtime": "2026-10-19T08:44:15"
    },
    "git": {
-    "last_commit": "2026-10-16T01:26:43Z",
-    "commits": 154,
-    "uncommitted": 1
+    "last_commit": "2026-10-17T23:51:06Z",
+    "commits": 168,
+    "uncommitted": 0
    },
    "days": 0,
    "status": "active",
