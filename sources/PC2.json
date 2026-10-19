@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-19T08:44:43",
+ "generated_at": "2026-10-19T09:28:08",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -34,15 +34,15 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 5.6,
-    "files": 580,
-    "mtime": "2026-10-16T10:59:14"
+    "files": 581,
+    "mtime": "2026-10-19T09:25:07"
    },
    "git": {
     "last_commit": null,
     "commits": null,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
@@ -92,17 +92,17 @@
    "name": "SCOPEパートナー募集",
    "note": "制作会社へのパートナー募集・送付IDで申込元を判別",
    "dir": {
-    "size_mb": 0.7,
-    "files": 53,
-    "mtime": "2026-10-16T10:11:24"
+    "size_mb": 0.8,
+    "files": 58,
+    "mtime": "2026-10-19T09:27:36"
    },
    "git": null,
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "送信済み",
-     "value": 209,
+     "value": 213,
      "of": 231
     },
     {
@@ -120,12 +120,12 @@
    "name": "製造業SCOPE先出し",
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
-    "size_mb": 0.6,
-    "files": 42,
-    "mtime": "2026-10-16T10:29:57"
+    "size_mb": 0.7,
+    "files": 44,
+    "mtime": "2026-10-19T09:28:05"
    },
    "git": null,
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-19T08:44:15"
+    "mtime": "2026-10-19T09:27:49"
    },
    "git": {
-    "last_commit": "2026-10-17T23:51:06Z",
-    "commits": 168,
+    "last_commit": "2026-10-18T23:44:54Z",
+    "commits": 170,
     "uncommitted": 0
    },
    "days": 0,
