@@ -1,26 +1,26 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-19T09:28:08",
+ "generated_at": "2026-10-19T09:31:21",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 67.2,
-    "files": 504,
-    "mtime": "2026-10-15T17:48:24"
+    "files": 505,
+    "mtime": "2026-10-19T09:29:50"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
     "commits": null,
     "uncommitted": 0
    },
-   "days": 3,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 124
+     "value": 125
     },
     {
      "label": "記事JSON",
@@ -121,8 +121,8 @@
    "note": "北関東の中小製造業へ反響レポートを先出し",
    "dir": {
     "size_mb": 0.7,
-    "files": 44,
-    "mtime": "2026-10-19T09:28:05"
+    "files": 47,
+    "mtime": "2026-10-19T09:31:13"
    },
    "git": null,
    "days": 0,
@@ -130,7 +130,7 @@
    "metrics": [
     {
      "label": "送信済み",
-     "value": 148,
+     "value": 149,
      "of": 166
     },
     {
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-19T09:27:49"
+    "mtime": "2026-10-19T09:31:14"
    },
    "git": {
-    "last_commit": "2026-10-18T23:44:54Z",
-    "commits": 170,
+    "last_commit": "2026-10-19T00:28:19Z",
+    "commits": 172,
     "uncommitted": 0
    },
    "days": 0,
