@@ -1,18 +1,18 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-21T10:22:06",
+ "generated_at": "2026-10-21T13:20:50",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 310.1,
-    "files": 1578,
-    "mtime": "2026-10-21T10:16:03"
+    "files": 1579,
+    "mtime": "2026-10-21T11:00:59"
    },
    "git": {
-    "last_commit": "2026-10-21T10:16:06+09:00",
-    "commits": 1395,
+    "last_commit": "2026-10-21T11:01:13+09:00",
+    "commits": 1397,
     "uncommitted": 0
    },
    "days": 0,
@@ -165,7 +165,7 @@
     "commits": 62,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 3,
    "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 193,
+   "days": 194,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -264,13 +264,13 @@
    "name": "倍増の設計図",
    "note": "経営レポートとスライド",
    "dir": {
-    "size_mb": 1.9,
-    "files": 25,
-    "mtime": "2026-09-04T19:01:08"
+    "size_mb": 2.1,
+    "files": 28,
+    "mtime": "2026-10-21T11:04:51"
    },
    "git": null,
-   "days": 46,
-   "status": "idle",
+   "days": 0,
+   "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
   },
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 117,
+   "days": 118,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 193,
+   "days": 194,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
