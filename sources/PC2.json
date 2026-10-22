@@ -1,14 +1,14 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-21T18:00:07",
+ "generated_at": "2026-10-22T14:34:13",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 67.3,
-    "files": 509,
-    "mtime": "2026-10-21T09:24:49"
+    "files": 512,
+    "mtime": "2026-10-22T09:53:01"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 126
+     "value": 127
     },
     {
      "label": "記事JSON",
-     "value": 126
+     "value": 127
     }
    ],
    "pc": "PC2"
@@ -33,9 +33,9 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 5.8,
-    "files": 606,
-    "mtime": "2026-10-21T10:01:41"
+    "size_mb": 5.9,
+    "files": 619,
+    "mtime": "2026-10-22T12:12:19"
    },
    "git": {
     "last_commit": null,
@@ -47,11 +47,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 232
+     "value": 237
     },
     {
      "label": "記事JSON",
-     "value": 236
+     "value": 241
     }
    ],
    "pc": "PC2"
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 131,
+   "days": 132,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-19T09:27:36"
    },
    "git": null,
-   "days": 2,
+   "days": 3,
    "status": "active",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-19T09:31:37"
    },
    "git": null,
-   "days": 2,
+   "days": 3,
    "status": "active",
    "metrics": [
     {
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 16,
+   "days": 17,
    "status": "slow",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 113,
+   "days": 114,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 187,
+   "days": 188,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 186,
+   "days": 187,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-21T18:00:03"
+    "mtime": "2026-10-22T14:33:53"
    },
    "git": {
-    "last_commit": "2026-10-21T05:25:21Z",
-    "commits": 199,
+    "last_commit": "2026-10-22T00:28:49Z",
+    "commits": 204,
     "uncommitted": 0
    },
    "days": 0,
