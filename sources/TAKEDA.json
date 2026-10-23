@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-23T10:28:31",
+ "generated_at": "2026-10-23T10:44:24",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -60,13 +60,13 @@
    "name": "埼玉フォーム営業",
    "note": "埼玉県内企業へのフォーム送信",
    "dir": {
-    "size_mb": 37.8,
-    "files": 45,
-    "mtime": "2026-10-23T10:27:16"
+    "size_mb": 40.0,
+    "files": 47,
+    "mtime": "2026-10-23T10:41:56"
    },
    "git": {
-    "last_commit": "2026-10-23T10:27:18+09:00",
-    "commits": 21,
+    "last_commit": "2026-10-23T10:41:58+09:00",
+    "commits": 23,
     "uncommitted": 0
    },
    "days": 0,
@@ -75,15 +75,15 @@
     {
      "label": "送信済み",
      "value": 7238,
-     "of": 15269
+     "of": 15879
     },
     {
      "label": "未送信",
-     "value": 1899
+     "value": 2509
     },
     {
      "label": "リスト",
-     "value": 15269
+     "value": 15879
     }
    ],
    "pc": "TAKEDA"
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 195,
+   "days": 196,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 119,
+   "days": 120,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 195,
+   "days": 196,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
