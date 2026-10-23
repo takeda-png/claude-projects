@@ -1,18 +1,18 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-21T18:52:04",
+ "generated_at": "2026-10-23T10:28:31",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
-    "size_mb": 310.9,
-    "files": 1620,
-    "mtime": "2026-10-21T18:41:43"
+    "size_mb": 311.0,
+    "files": 1625,
+    "mtime": "2026-10-23T10:14:15"
    },
    "git": {
-    "last_commit": "2026-10-21T18:41:52+09:00",
-    "commits": 1421,
+    "last_commit": "2026-10-23T10:15:23+09:00",
+    "commits": 1439,
     "uncommitted": 0
    },
    "days": 0,
@@ -33,16 +33,16 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 3.2,
-    "files": 236,
-    "mtime": "2026-10-21T13:51:15"
+    "size_mb": 3.3,
+    "files": 240,
+    "mtime": "2026-10-22T10:02:51"
    },
    "git": {
-    "last_commit": "2026-10-21T13:51:17+09:00",
-    "commits": 148,
+    "last_commit": "2026-10-22T10:02:58+09:00",
+    "commits": 162,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 1,
    "status": "active",
    "metrics": [
     {
@@ -60,17 +60,17 @@
    "name": "埼玉フォーム営業",
    "note": "埼玉県内企業へのフォーム送信",
    "dir": {
-    "size_mb": 36.5,
-    "files": 38,
-    "mtime": "2026-04-16T18:51:21"
+    "size_mb": 37.8,
+    "files": 45,
+    "mtime": "2026-10-23T10:27:16"
    },
    "git": {
-    "last_commit": "2026-04-16T18:52:15+09:00",
-    "commits": 20,
+    "last_commit": "2026-10-23T10:27:18+09:00",
+    "commits": 21,
     "uncommitted": 0
    },
-   "days": 188,
-   "status": "idle",
+   "days": 0,
+   "status": "active",
    "metrics": [
     {
      "label": "送信済み",
@@ -101,7 +101,7 @@
     "commits": 7,
     "uncommitted": 0
    },
-   "days": 14,
+   "days": 15,
    "status": "slow",
    "metrics": [
     {
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 187,
+   "days": 189,
    "status": "idle",
    "metrics": [
     {
@@ -165,7 +165,7 @@
     "commits": 62,
     "uncommitted": 0
    },
-   "days": 3,
+   "days": 4,
    "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
@@ -183,7 +183,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 40,
+   "days": 42,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -201,7 +201,7 @@
     "commits": 11,
     "uncommitted": 0
    },
-   "days": 56,
+   "days": 57,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -219,7 +219,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 54,
+   "days": 56,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -237,7 +237,7 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 44,
+   "days": 45,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 194,
+   "days": 195,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -269,7 +269,7 @@
     "mtime": "2026-10-21T11:04:51"
    },
    "git": null,
-   "days": 0,
+   "days": 1,
    "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
@@ -283,7 +283,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 50,
+   "days": 51,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 118,
+   "days": 119,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 194,
+   "days": 195,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -329,7 +329,7 @@
     "mtime": "2026-03-06T18:09:38"
    },
    "git": null,
-   "days": 229,
+   "days": 230,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
