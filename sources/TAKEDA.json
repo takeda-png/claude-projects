@@ -1,18 +1,18 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-24T17:39:15",
+ "generated_at": "2026-10-25T10:28:41",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
-    "size_mb": 311.5,
-    "files": 1663,
-    "mtime": "2026-10-24T17:12:49"
+    "size_mb": 311.8,
+    "files": 1696,
+    "mtime": "2026-10-25T10:02:51"
    },
    "git": {
-    "last_commit": "2026-10-24T17:12:53+09:00",
-    "commits": 1459,
+    "last_commit": "2026-10-25T10:03:07+09:00",
+    "commits": 1478,
     "uncommitted": 0
    },
    "days": 0,
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 141
+     "value": 146
     },
     {
      "label": "記事JSON",
-     "value": 139
+     "value": 144
     }
    ],
    "pc": "TAKEDA"
@@ -33,25 +33,25 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 3.3,
-    "files": 240,
-    "mtime": "2026-10-22T10:02:51"
+    "size_mb": 3.4,
+    "files": 254,
+    "mtime": "2026-10-25T10:03:06"
    },
    "git": {
-    "last_commit": "2026-10-22T10:02:58+09:00",
-    "commits": 162,
+    "last_commit": "2026-10-25T10:03:12+09:00",
+    "commits": 171,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 59
+     "value": 64
     },
     {
      "label": "記事JSON",
-     "value": 60
+     "value": 65
     }
    ],
    "pc": "TAKEDA"
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 190,
+   "days": 191,
    "status": "idle",
    "metrics": [
     {
@@ -183,7 +183,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 43,
+   "days": 44,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -219,7 +219,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 57,
+   "days": 58,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -329,7 +329,7 @@
     "mtime": "2026-03-06T18:09:38"
    },
    "git": null,
-   "days": 231,
+   "days": 232,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
