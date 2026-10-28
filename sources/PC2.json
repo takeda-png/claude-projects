@@ -1,30 +1,30 @@
 {
  "pc": "PC2",
- "generated_at": "2026-10-29T08:45:14",
+ "generated_at": "2026-10-29T08:49:52",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
-    "size_mb": 68.7,
-    "files": 522,
-    "mtime": "2026-10-26T08:55:56"
+    "size_mb": 70.2,
+    "files": 527,
+    "mtime": "2026-10-29T08:49:00"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
     "commits": null,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 129
+     "value": 130
     },
     {
      "label": "記事JSON",
-     "value": 129
+     "value": 130
     }
    ],
    "pc": "PC2"
@@ -33,16 +33,16 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 6.1,
-    "files": 645,
-    "mtime": "2026-10-26T08:59:03"
+    "size_mb": 6.2,
+    "files": 652,
+    "mtime": "2026-10-29T08:49:38"
    },
    "git": {
     "last_commit": null,
     "commits": null,
     "uncommitted": 0
    },
-   "days": 2,
+   "days": 0,
    "status": "active",
    "metrics": [
     {
@@ -51,7 +51,7 @@
     },
     {
      "label": "記事JSON",
-     "value": 251
+     "value": 256
     }
    ],
    "pc": "PC2"
@@ -228,11 +228,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-10-29T08:44:56"
+    "mtime": "2026-10-29T08:49:46"
    },
    "git": {
-    "last_commit": "2026-10-28T01:01:39Z",
-    "commits": 240,
+    "last_commit": "2026-10-28T23:45:26Z",
+    "commits": 242,
     "uncommitted": 0
    },
    "days": 0,
