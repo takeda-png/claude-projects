@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-29T10:05:59",
+ "generated_at": "2026-10-29T10:54:52",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -69,7 +69,7 @@
     "commits": 28,
     "uncommitted": 0
    },
-   "days": 5,
+   "days": 6,
    "status": "active",
    "metrics": [
     {
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 201,
+   "days": 202,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 125,
+   "days": 126,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 201,
+   "days": 202,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
