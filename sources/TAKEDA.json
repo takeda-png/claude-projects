@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-10-29T18:34:00",
+ "generated_at": "2026-10-30T13:52:39",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -8,11 +8,11 @@
    "dir": {
     "size_mb": 312.0,
     "files": 1700,
-    "mtime": "2026-10-29T09:21:39"
+    "mtime": "2026-10-30T09:32:19"
    },
    "git": {
-    "last_commit": "2026-10-29T09:35:15+09:00",
-    "commits": 1486,
+    "last_commit": "2026-10-30T09:32:44+09:00",
+    "commits": 1487,
     "uncommitted": 0
    },
    "days": 0,
@@ -69,7 +69,7 @@
     "commits": 28,
     "uncommitted": 0
    },
-   "days": 6,
+   "days": 7,
    "status": "active",
    "metrics": [
     {
@@ -101,7 +101,7 @@
     "commits": 7,
     "uncommitted": 0
    },
-   "days": 22,
+   "days": 23,
    "status": "slow",
    "metrics": [
     {
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 195,
+   "days": 196,
    "status": "idle",
    "metrics": [
     {
@@ -165,7 +165,7 @@
     "commits": 64,
     "uncommitted": 0
    },
-   "days": 4,
+   "days": 5,
    "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
@@ -183,7 +183,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 48,
+   "days": 49,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -219,7 +219,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 62,
+   "days": 63,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 202,
+   "days": 203,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -269,7 +269,7 @@
     "mtime": "2026-10-21T11:04:51"
    },
    "git": null,
-   "days": 8,
+   "days": 9,
    "status": "slow",
    "metrics": [],
    "pc": "TAKEDA"
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 126,
+   "days": 127,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 202,
+   "days": 203,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
