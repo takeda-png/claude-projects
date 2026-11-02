@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-02T11:10:08",
+ "generated_at": "2026-11-02T12:48:41",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -97,7 +97,7 @@
     "mtime": "2026-10-30T11:31:30"
    },
    "git": null,
-   "days": 2,
+   "days": 3,
    "status": "active",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-26T11:39:52"
    },
    "git": null,
-   "days": 6,
+   "days": 7,
    "status": "active",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 124,
+   "days": 125,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -228,12 +228,12 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-02T11:09:59"
+    "mtime": "2026-11-02T12:48:32"
    },
    "git": {
-    "last_commit": "2026-11-02T02:04:31Z",
-    "commits": 297,
-    "uncommitted": 0
+    "last_commit": "2026-11-02T02:17:24Z",
+    "commits": 301,
+    "uncommitted": 1
    },
    "days": 0,
    "status": "active",
