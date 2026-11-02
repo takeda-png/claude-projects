@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-11-02T16:45:51",
+ "generated_at": "2026-11-02T17:27:14",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -193,16 +193,16 @@
    "note": "自社ツールの公開ショーケース",
    "dir": {
     "size_mb": 1.1,
-    "files": 21,
-    "mtime": "2026-08-26T16:18:10"
+    "files": 24,
+    "mtime": "2026-11-02T17:23:31"
    },
    "git": {
-    "last_commit": "2026-08-26T07:15:03Z",
-    "commits": 11,
+    "last_commit": "2026-11-02T17:23:51+09:00",
+    "commits": 61,
     "uncommitted": 0
    },
-   "days": 68,
-   "status": "idle",
+   "days": 0,
+   "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
   },
