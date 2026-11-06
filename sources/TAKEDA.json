@@ -1,18 +1,18 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-11-05T18:25:02",
+ "generated_at": "2026-11-06T10:01:50",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
-    "size_mb": 314.4,
-    "files": 1724,
-    "mtime": "2026-11-05T12:05:51"
+    "size_mb": 314.6,
+    "files": 1729,
+    "mtime": "2026-11-06T09:33:06"
    },
    "git": {
-    "last_commit": "2026-11-05T12:05:53+09:00",
-    "commits": 1537,
+    "last_commit": "2026-11-06T09:33:09+09:00",
+    "commits": 1544,
     "uncommitted": 0
    },
    "days": 0,
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 202,
+   "days": 203,
    "status": "idle",
    "metrics": [
     {
@@ -165,7 +165,7 @@
     "commits": 72,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 1,
    "status": "active",
    "metrics": [],
    "pc": "TAKEDA"
@@ -183,7 +183,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 55,
+   "days": 56,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -219,7 +219,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 69,
+   "days": 70,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
