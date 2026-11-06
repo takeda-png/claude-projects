@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-06T11:08:03",
+ "generated_at": "2026-11-06T11:08:21",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -223,16 +223,30 @@
    "pc": "PC2"
   },
   {
+   "name": "工務店ダッシュボード(ANDPAD連携)",
+   "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
+   "dir": {
+    "size_mb": 40.3,
+    "files": 345,
+    "mtime": "2026-11-06T11:06:48"
+   },
+   "git": null,
+   "days": 0,
+   "status": "active",
+   "metrics": [],
+   "pc": "PC2"
+  },
+  {
    "name": "プロジェクト状況ページ",
    "note": "このページ自体の生成スクリプト",
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-06T11:08:00"
+    "mtime": "2026-11-06T11:08:19"
    },
    "git": {
-    "last_commit": "2026-11-06T02:05:19Z",
-    "commits": 355,
+    "last_commit": "2026-11-06T02:08:12Z",
+    "commits": 357,
     "uncommitted": 1
    },
    "days": 0,
