@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-06T11:08:21",
+ "generated_at": "2026-11-09T09:19:47",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -15,7 +15,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
@@ -42,7 +42,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [
     {
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 146,
+   "days": 149,
    "status": "idle",
    "metrics": [
     {
@@ -97,8 +97,8 @@
     "mtime": "2026-10-30T11:31:30"
    },
    "git": null,
-   "days": 6,
-   "status": "active",
+   "days": 9,
+   "status": "slow",
    "metrics": [
     {
      "label": "送信済み",
@@ -125,7 +125,7 @@
     "mtime": "2026-10-26T11:39:52"
    },
    "git": null,
-   "days": 10,
+   "days": 13,
    "status": "slow",
    "metrics": [
     {
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 32,
+   "days": 34,
    "status": "idle",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 128,
+   "days": 131,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 203,
+   "days": 205,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 202,
+   "days": 205,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -231,7 +231,7 @@
     "mtime": "2026-11-06T11:06:48"
    },
    "git": null,
-   "days": 0,
+   "days": 2,
    "status": "active",
    "metrics": [],
    "pc": "PC2"
@@ -242,11 +242,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-06T11:08:19"
+    "mtime": "2026-11-09T09:19:13"
    },
    "git": {
-    "last_commit": "2026-11-06T02:08:12Z",
-    "commits": 357,
+    "last_commit": "2026-11-08T01:11:37Z",
+    "commits": 363,
     "uncommitted": 1
    },
    "days": 0,
