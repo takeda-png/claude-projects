@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-11-11T12:02:15",
+ "generated_at": "2026-11-11T14:46:54",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -34,12 +34,12 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 11.2,
-    "files": 266,
-    "mtime": "2026-11-11T08:48:15"
+    "files": 267,
+    "mtime": "2026-11-11T12:31:07"
    },
    "git": {
-    "last_commit": "2026-11-11T08:48:23+09:00",
-    "commits": 181,
+    "last_commit": "2026-11-11T14:44:46+09:00",
+    "commits": 182,
     "uncommitted": 0
    },
    "days": 0,
@@ -101,7 +101,7 @@
     "commits": 7,
     "uncommitted": 0
    },
-   "days": 34,
+   "days": 35,
    "status": "idle",
    "metrics": [
     {
@@ -237,7 +237,7 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 64,
+   "days": 65,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -283,7 +283,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 70,
+   "days": 71,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
