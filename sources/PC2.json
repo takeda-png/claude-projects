@@ -1,14 +1,14 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-13T08:46:15",
+ "generated_at": "2026-11-13T08:51:11",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 74.8,
-    "files": 583,
-    "mtime": "2026-11-12T10:17:36"
+    "files": 586,
+    "mtime": "2026-11-13T08:50:37"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 136
+     "value": 137
     },
     {
      "label": "記事JSON",
-     "value": 136
+     "value": 137
     }
    ],
    "pc": "PC2"
@@ -33,9 +33,9 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 6.8,
-    "files": 735,
-    "mtime": "2026-11-12T10:18:30"
+    "size_mb": 6.9,
+    "files": 741,
+    "mtime": "2026-11-13T08:50:49"
    },
    "git": {
     "last_commit": null,
@@ -51,7 +51,7 @@
     },
     {
      "label": "記事JSON",
-     "value": 286
+     "value": 290
     }
    ],
    "pc": "PC2"
@@ -226,9 +226,9 @@
    "name": "工務店ダッシュボード(ANDPAD連携)",
    "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
    "dir": {
-    "size_mb": 57.2,
-    "files": 388,
-    "mtime": "2026-11-12T08:54:25"
+    "size_mb": 63.7,
+    "files": 404,
+    "mtime": "2026-11-13T08:50:58"
    },
    "git": {
     "last_commit": "2026-11-11T17:47:10+09:00",
@@ -246,11 +246,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-13T08:46:06"
+    "mtime": "2026-11-13T08:51:09"
    },
    "git": {
-    "last_commit": "2026-11-12T02:44:38Z",
-    "commits": 403,
+    "last_commit": "2026-11-12T23:46:28Z",
+    "commits": 405,
     "uncommitted": 1
    },
    "days": 0,
