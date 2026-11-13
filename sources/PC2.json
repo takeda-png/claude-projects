@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-13T09:32:18",
+ "generated_at": "2026-11-13T18:00:08",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 153,
+   "days": 154,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-30T11:31:30"
    },
    "git": null,
-   "days": 13,
+   "days": 14,
    "status": "slow",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-26T11:39:52"
    },
    "git": null,
-   "days": 17,
+   "days": 18,
    "status": "slow",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 135,
+   "days": 136,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 209,
+   "days": 210,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -226,13 +226,13 @@
    "name": "工務店ダッシュボード(ANDPAD連携)",
    "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
    "dir": {
-    "size_mb": 64.7,
-    "files": 402,
-    "mtime": "2026-11-13T09:25:12"
+    "size_mb": 93.6,
+    "files": 512,
+    "mtime": "2026-11-13T15:30:02"
    },
    "git": {
-    "last_commit": "2026-11-13T09:26:00+09:00",
-    "commits": 30,
+    "last_commit": "2026-11-13T15:34:30+09:00",
+    "commits": 39,
     "uncommitted": 0
    },
    "days": 0,
@@ -246,11 +246,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-13T09:32:10"
+    "mtime": "2026-11-13T18:00:03"
    },
    "git": {
-    "last_commit": "2026-11-12T23:57:49Z",
-    "commits": 409,
+    "last_commit": "2026-11-13T04:27:55Z",
+    "commits": 415,
     "uncommitted": 1
    },
    "days": 0,
