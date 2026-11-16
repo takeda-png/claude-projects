@@ -1,14 +1,14 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-16T11:03:17",
+ "generated_at": "2026-11-17T08:48:15",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 74.9,
-    "files": 602,
-    "mtime": "2026-11-16T11:02:19"
+    "files": 605,
+    "mtime": "2026-11-17T08:47:30"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 142
+     "value": 143
     },
     {
      "label": "記事JSON",
-     "value": 142
+     "value": 143
     }
    ],
    "pc": "PC2"
@@ -34,8 +34,8 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 7.0,
-    "files": 761,
-    "mtime": "2026-11-16T09:32:00"
+    "files": 764,
+    "mtime": "2026-11-17T08:47:19"
    },
    "git": {
     "last_commit": null,
@@ -51,7 +51,7 @@
     },
     {
      "label": "記事JSON",
-     "value": 296
+     "value": 297
     }
    ],
    "pc": "PC2"
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 156,
+   "days": 157,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-30T11:31:30"
    },
    "git": null,
-   "days": 16,
+   "days": 17,
    "status": "slow",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-26T11:39:52"
    },
    "git": null,
-   "days": 20,
+   "days": 21,
    "status": "slow",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 138,
+   "days": 139,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 212,
+   "days": 213,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -226,9 +226,9 @@
    "name": "工務店ダッシュボード(ANDPAD連携)",
    "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
    "dir": {
-    "size_mb": 100.8,
-    "files": 524,
-    "mtime": "2026-11-16T08:52:31"
+    "size_mb": 104.3,
+    "files": 533,
+    "mtime": "2026-11-17T08:48:10"
    },
    "git": {
     "last_commit": "2026-11-13T15:34:30+09:00",
@@ -246,11 +246,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-16T11:03:12"
+    "mtime": "2026-11-17T08:48:12"
    },
    "git": {
-    "last_commit": "2026-11-16T01:38:04Z",
-    "commits": 426,
+    "last_commit": "2026-11-16T05:32:02Z",
+    "commits": 430,
     "uncommitted": 1
    },
    "days": 0,
