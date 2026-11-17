@@ -1,14 +1,14 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-17T08:54:00",
+ "generated_at": "2026-11-17T11:17:35",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 74.9,
-    "files": 605,
-    "mtime": "2026-11-17T08:47:30"
+    "files": 612,
+    "mtime": "2026-11-17T11:17:04"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 143
+     "value": 144
     },
     {
      "label": "記事JSON",
-     "value": 143
+     "value": 144
     }
    ],
    "pc": "PC2"
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 42,
+   "days": 43,
    "status": "idle",
    "metrics": [
     {
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 213,
+   "days": 214,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -246,11 +246,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-17T08:53:58"
+    "mtime": "2026-11-17T11:17:31"
    },
    "git": {
-    "last_commit": "2026-11-16T23:48:23Z",
-    "commits": 432,
+    "last_commit": "2026-11-17T00:37:37Z",
+    "commits": 436,
     "uncommitted": 1
    },
    "days": 0,
