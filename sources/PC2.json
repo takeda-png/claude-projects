@@ -1,6 +1,6 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-19T14:46:58",
+ "generated_at": "2026-11-24T08:44:46",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -15,7 +15,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 4,
    "status": "active",
    "metrics": [
     {
@@ -42,7 +42,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 0,
+   "days": 4,
    "status": "active",
    "metrics": [
     {
@@ -69,7 +69,7 @@
     "commits": null,
     "uncommitted": 0
    },
-   "days": 160,
+   "days": 164,
    "status": "idle",
    "metrics": [
     {
@@ -97,7 +97,7 @@
     "mtime": "2026-10-30T11:31:30"
    },
    "git": null,
-   "days": 20,
+   "days": 24,
    "status": "slow",
    "metrics": [
     {
@@ -125,7 +125,7 @@
     "mtime": "2026-10-26T11:39:52"
    },
    "git": null,
-   "days": 24,
+   "days": 28,
    "status": "slow",
    "metrics": [
     {
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 45,
+   "days": 49,
    "status": "idle",
    "metrics": [
     {
@@ -185,7 +185,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 142,
+   "days": 146,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 216,
+   "days": 220,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -217,7 +217,7 @@
     "mtime": "2026-04-17T19:08:39"
    },
    "git": null,
-   "days": 215,
+   "days": 220,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -226,9 +226,9 @@
    "name": "工務店ダッシュボード(ANDPAD連携)",
    "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
    "dir": {
-    "size_mb": 113.4,
-    "files": 543,
-    "mtime": "2026-11-19T08:54:48"
+    "size_mb": 120.8,
+    "files": 564,
+    "mtime": "2026-11-24T08:44:45"
    },
    "git": {
     "last_commit": "2026-11-19T08:49:01+09:00",
@@ -246,12 +246,12 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-19T14:46:55"
+    "mtime": "2026-11-24T08:44:31"
    },
    "git": {
-    "last_commit": "2026-11-19T02:58:09Z",
-    "commits": 453,
-    "uncommitted": 2
+    "last_commit": "2026-11-23T02:22:22Z",
+    "commits": 465,
+    "uncommitted": 1
    },
    "days": 0,
    "status": "active",
