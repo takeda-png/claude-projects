@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-11-21T19:44:22",
+ "generated_at": "2026-11-24T11:56:06",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -8,11 +8,11 @@
    "dir": {
     "size_mb": 315.9,
     "files": 1778,
-    "mtime": "2026-11-21T14:30:01"
+    "mtime": "2026-11-24T10:23:35"
    },
    "git": {
-    "last_commit": "2026-11-21T14:34:39+09:00",
-    "commits": 1632,
+    "last_commit": "2026-11-24T10:24:39+09:00",
+    "commits": 1637,
     "uncommitted": 0
    },
    "days": 0,
@@ -34,12 +34,12 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 11.8,
-    "files": 275,
-    "mtime": "2026-11-21T12:30:16"
+    "files": 277,
+    "mtime": "2026-11-24T08:47:56"
    },
    "git": {
-    "last_commit": "2026-11-21T12:56:58+09:00",
-    "commits": 191,
+    "last_commit": "2026-11-24T09:59:22+09:00",
+    "commits": 193,
     "uncommitted": 0
    },
    "days": 0,
@@ -69,8 +69,8 @@
     "commits": 28,
     "uncommitted": 0
    },
-   "days": 29,
-   "status": "slow",
+   "days": 32,
+   "status": "idle",
    "metrics": [
     {
      "label": "送信済み",
@@ -101,7 +101,7 @@
     "commits": 7,
     "uncommitted": 0
    },
-   "days": 45,
+   "days": 47,
    "status": "idle",
    "metrics": [
     {
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 219,
+   "days": 221,
    "status": "idle",
    "metrics": [
     {
@@ -165,7 +165,7 @@
     "commits": 72,
     "uncommitted": 0
    },
-   "days": 17,
+   "days": 19,
    "status": "slow",
    "metrics": [],
    "pc": "TAKEDA"
@@ -183,7 +183,7 @@
     "commits": 3,
     "uncommitted": 0
    },
-   "days": 71,
+   "days": 74,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -201,7 +201,7 @@
     "commits": 69,
     "uncommitted": 0
    },
-   "days": 10,
+   "days": 12,
    "status": "slow",
    "metrics": [],
    "pc": "TAKEDA"
@@ -219,7 +219,7 @@
     "commits": 2,
     "uncommitted": 0
    },
-   "days": 86,
+   "days": 88,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -237,7 +237,7 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 75,
+   "days": 77,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -255,7 +255,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 225,
+   "days": 228,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -269,7 +269,7 @@
     "mtime": "2026-10-21T11:04:51"
    },
    "git": null,
-   "days": 31,
+   "days": 34,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -283,7 +283,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 81,
+   "days": 83,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -297,7 +297,7 @@
     "mtime": "2026-06-25T10:39:07"
    },
    "git": null,
-   "days": 149,
+   "days": 152,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -315,7 +315,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 225,
+   "days": 228,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -329,7 +329,7 @@
     "mtime": "2026-03-06T18:09:38"
    },
    "git": null,
-   "days": 260,
+   "days": 262,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
