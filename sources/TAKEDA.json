@@ -1,6 +1,6 @@
 {
  "pc": "TAKEDA",
- "generated_at": "2026-11-24T11:56:06",
+ "generated_at": "2026-11-24T19:14:03",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
@@ -8,11 +8,11 @@
    "dir": {
     "size_mb": 315.9,
     "files": 1778,
-    "mtime": "2026-11-24T10:23:35"
+    "mtime": "2026-11-24T14:30:32"
    },
    "git": {
-    "last_commit": "2026-11-24T10:24:39+09:00",
-    "commits": 1637,
+    "last_commit": "2026-11-24T14:36:32+09:00",
+    "commits": 1638,
     "uncommitted": 0
    },
    "days": 0,
@@ -33,13 +33,13 @@
    "name": "リクルート自動コラム",
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
-    "size_mb": 11.8,
-    "files": 277,
-    "mtime": "2026-11-24T08:47:56"
+    "size_mb": 12.4,
+    "files": 288,
+    "mtime": "2026-11-24T16:07:36"
    },
    "git": {
-    "last_commit": "2026-11-24T09:59:22+09:00",
-    "commits": 193,
+    "last_commit": "2026-11-24T16:07:50+09:00",
+    "commits": 202,
     "uncommitted": 0
    },
    "days": 0,
@@ -101,7 +101,7 @@
     "commits": 7,
     "uncommitted": 0
    },
-   "days": 47,
+   "days": 48,
    "status": "idle",
    "metrics": [
     {
@@ -133,7 +133,7 @@
     "commits": 12,
     "uncommitted": 0
    },
-   "days": 221,
+   "days": 222,
    "status": "idle",
    "metrics": [
     {
@@ -165,7 +165,7 @@
     "commits": 72,
     "uncommitted": 0
    },
-   "days": 19,
+   "days": 20,
    "status": "slow",
    "metrics": [],
    "pc": "TAKEDA"
@@ -201,7 +201,7 @@
     "commits": 69,
     "uncommitted": 0
    },
-   "days": 12,
+   "days": 13,
    "status": "slow",
    "metrics": [],
    "pc": "TAKEDA"
@@ -237,7 +237,7 @@
     "commits": 4,
     "uncommitted": 0
    },
-   "days": 77,
+   "days": 78,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -283,7 +283,7 @@
     "mtime": "2026-09-01T13:59:20"
    },
    "git": null,
-   "days": 83,
+   "days": 84,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
@@ -329,7 +329,7 @@
     "mtime": "2026-03-06T18:09:38"
    },
    "git": null,
-   "days": 262,
+   "days": 263,
    "status": "idle",
    "metrics": [],
    "pc": "TAKEDA"
