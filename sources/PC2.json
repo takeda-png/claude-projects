@@ -1,14 +1,14 @@
 {
  "pc": "PC2",
- "generated_at": "2026-11-26T08:46:32",
+ "generated_at": "2026-11-26T10:44:35",
  "projects": [
   {
    "name": "WordPress Webmaster AI",
    "note": "sinmido.com の記事生成・自動投稿",
    "dir": {
     "size_mb": 75.0,
-    "files": 622,
-    "mtime": "2026-11-25T08:48:49"
+    "files": 627,
+    "mtime": "2026-11-26T10:44:16"
    },
    "git": {
     "last_commit": "2026-09-02T09:14:05+09:00",
@@ -20,11 +20,11 @@
    "metrics": [
     {
      "label": "投稿ログ",
-     "value": 147
+     "value": 148
     },
     {
      "label": "記事JSON",
-     "value": 147
+     "value": 148
     }
    ],
    "pc": "PC2"
@@ -34,8 +34,8 @@
    "note": "sinmido-recruit.com のコラム生成・投稿",
    "dir": {
     "size_mb": 7.4,
-    "files": 813,
-    "mtime": "2026-11-25T08:56:59"
+    "files": 816,
+    "mtime": "2026-11-26T10:43:47"
    },
    "git": {
     "last_commit": null,
@@ -51,7 +51,7 @@
     },
     {
      "label": "記事JSON",
-     "value": 316
+     "value": 317
     }
    ],
    "pc": "PC2"
@@ -153,7 +153,7 @@
     "mtime": "2026-10-05T09:31:38"
    },
    "git": null,
-   "days": 51,
+   "days": 52,
    "status": "idle",
    "metrics": [
     {
@@ -203,7 +203,7 @@
     "commits": 1,
     "uncommitted": 0
    },
-   "days": 222,
+   "days": 223,
    "status": "idle",
    "metrics": [],
    "pc": "PC2"
@@ -227,8 +227,8 @@
    "note": "ANDPADの案件データを毎朝自動取得してダッシュボード化",
    "dir": {
     "size_mb": 136.3,
-    "files": 584,
-    "mtime": "2026-11-26T08:46:30"
+    "files": 582,
+    "mtime": "2026-11-26T08:52:12"
    },
    "git": {
     "last_commit": "2026-11-19T08:49:01+09:00",
@@ -246,11 +246,11 @@
    "dir": {
     "size_mb": 0.1,
     "files": 15,
-    "mtime": "2026-11-26T08:46:08"
+    "mtime": "2026-11-26T10:44:30"
    },
    "git": {
-    "last_commit": "2026-11-25T05:10:25Z",
-    "commits": 487,
+    "last_commit": "2026-11-25T23:46:52Z",
+    "commits": 489,
     "uncommitted": 1
    },
    "days": 0,
